@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Citas</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #74a7e4;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #f5f5f5;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    
+
+a {
+    background-color: #336ca5;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+}
+
+</style>
+
+<div class="a">   
+    <a  style="text-decoration: none; color: #ffffff;" href="index.html">REGRESAR</a>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de pago</h1>
+        <form>
+            <label for="cuenta">Número de Cuenta:</label>
+            <input type="number" id="cuenta" name="cuenta" required>
+
+            <label for="codigo postal">Codigo postal:</label>
+            <input type="text" id="cp" name="cp" required>
+
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="nombre" name="Apellido" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="motivo">motivo:</label>
+            <input type="text" id="motivo" name="motivo" required>
+
+            <button type="submit">Enviar</button>
+            <a href="tabla_pago.html">Tabla</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con CSS</title>
+    <style>
+        /* Estilos CSS aquí */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #74a7e4;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+         
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #020202;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4a66b8;
+            color: #21262e;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3583b1;
+        }
+        a {
+    background-color: #336ca5;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+}
+
+    </style>
+    <div class="a">   
+    <a style="text-decoration: none; color: #ffffff;" href="index.html">REGRESAR</a>
+</style>
+</head>
+
+<body>
+
+
+
+
+    <center><div align ="center"><img src="img/recibo.jpg"WIDTH="900"></div></center>
+    <div class="container">
+        <form>
+            <label for="cuenta">Numero cuenta</label>
+            <input type="text" id="tramite" name="tramite" required>
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+
+            <label for="cuenta">localizacion:</label>
+            <input type="number" id="localizacion" name="Localizacion" required>
+
+            <label for="codigo postal">Codigo postal:</label>
+            <input type="text" id="cp" name="cp" required>
+
+            <label for="fecha">Fecha</label>
+            <input type="text" id="fecha" name="fecha" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="nombre" name="Apellido" required>
+
+            <label for="correo">correo:</label>
+            <input type="email" id="telefono" name="correo" required>
+
+
+            <button type="submit">Enviar</button>
+            <a href="tabla_consulta_pago.html">Tabla</a>
+        </form>
+    </div>
+</body>
+</html>

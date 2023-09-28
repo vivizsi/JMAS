@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar referencia</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #74a7e4;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+         
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #020202;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #005187;
+            color: #21262e;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #98c0f6;
+        }
+        a {
+    background-color: #5589c4;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+}
+    </style>
+    
+<div class="a">   
+    <a  style="text-decoration: none; color: #ffffff;" href="index.html">REGRESAR</a>
+</head>
+<body>
+   <center>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form>
+            <label for="nc">Numero de cuenta</label>
+            <input type="text" id="tramite" name="tramite" required>
+
+            <label for="cp">codigo postal:</label>
+            <input type="text" id="codigo postal" name="cp" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="clace cuenta">clase cuenta:</label>
+            <input type="text" id="clase cuenta" name="clase cuenta" required>
+            <button type="submit">Enviar</button>
+            <a href="tabla_genera_referencia.html">Tabla</a>
+       
+        </form>
+    </div>
+</body>
+</html>
